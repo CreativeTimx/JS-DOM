@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="app.js"></script>
+</head>
+<body class="bg-blue-500 ">
+    
+    <section class="px-5 md:px-10">
+        <div class="bg-white shadow-lg p-2 sm:p-5 my-10 w-full xl:w-1/2 lg:container lg:mx-auto">
+            <div class="flex justify-between mb-10">
+                 <button class="bg-blue-400 py-2 md:px-4 px-1 rounded text-gray-900 md:text-lg text-sm" onclick="genBtn()">Generate Random Number</button>
+                 <button class="bg-blue-400 py-2 md:px-4 px-1 rounded text-gray-900 md:text-lg text-sm" onclick="delBtn()">Delete Last Number</button>
+            </div>
+     
+            <div class="bg-blue-200 p-5" id="content">
+     
+            </div>
+         </div>
+     
+         <div class="lg:container lg:mx-auto my-10 bg-white p-5 w-full xl:w-1/2">
+             
+            <div class="flex justify-between mb-10">
+                <button class="bg-blue-400 py-2 px-6 rounded text-gray-900 mb-5 w-20 md:w-60" onclick="onBtn()">ON</button>
+                <button class="bg-blue-400 py-2 px-6 rounded text-gray-900 mb-5 w-20 md:w-60" onclick="offBtn()">OFF</button>
+             </div>
+     
+             <div class="flex items-center justify-center">
+                <img src="smile.jpg" class="w-32" id="icon">
+             </div>
+         </div>
+    </section>
+
+
+
+   
+</body>
+</html>
